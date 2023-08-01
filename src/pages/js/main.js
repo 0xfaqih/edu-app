@@ -12,5 +12,3 @@ fetch('components/navbar.html',)
     const navbarContainer = document.getElementById('toolbarContainer');
     navbarContainer.innerHTML = data;
   });
-  
-  
