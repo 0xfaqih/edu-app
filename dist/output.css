@@ -580,6 +580,14 @@ video {
   top: 0px;
 }
 
+.z-40 {
+  z-index: 40;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
