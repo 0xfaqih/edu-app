@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth scroll-pt-20">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,14 @@
 <style>
     .hidden {
         display: none;
+    }
+
+    ol.list-alpha li {
+        list-style-type: upper-alpha;
+    }
+
+    #subjudul li {
+        list-style-type: decimal;
     }
 </style>
 
@@ -39,51 +47,76 @@
         </div>
     </header>
     <div class="container mx-auto p-5 py-20">
-        <h1 class="text-2xl font-bold mb-4">Bab 4 Quantum komputer</h1>
+        <h1 class="text-2xl font-bold mb-4">Sistem Komputer</h1>
         <button id="toggleButton"
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex">
             <img class="w-4" src="../assets/img/expand-button.png" alt="" srcset="">
         </button>
 
+        <!-- daftar isi -->
         <div id="daftarIsi" class="mt-4 hidden">
             <div class="bg-white rounded-lg shadow-lg p-4">
                 <h2 class="text-xl font-semibold mb-2">Daftar Isi</h2>
-                <ul class="space-y-2">
-                    <li><a href="#chapter1" class="text-blue-500 hover:underline">Pengenalan Quantum Komputer</a></li>
-                    <li><a href="#chapter2" class="text-blue-500 hover:underline">Qubit dan Komputasi Quantum</a></li>
-                    <li><a href="#chapter3" class="text-blue-500 hover:underline">Aplikasi Quantum Komputer</a></li>
-                    <li><a href="#chapter4" class="text-blue-500 hover:underline">Tantangan dalam Quantum Komputer</a>
+                <ol class="space-y-2 list-alpha list-inside">
+                    <li><a href="#A" class="text-blue-500 hover:underline font-bold">Komputer dan Komponen
+                            Penyusunnya</a></li>
+                    <div id="subjudul">
+                        <ul class="mx-10">
+                            <li>
+                                <a href="#Asub1" class="text-blue-500 hover:underline">Sistem Komputer</a>
+                            </li>
+                            <li>
+                                <a href="#Asub2" class="text-blue-500 hover:underline">Jenis Jenis Komputer</a>
+                            </li>
+                        </ul>
+                    </div>
                     </li>
-                </ul>
+                </ol>
             </div>
         </div>
 
-        <h2 id="chapter1" class="text-xl font-semibold mt-8">Pengenalan Quantum Komputer</h2>
-        <p class="text-justify">Quantum komputer adalah jenis komputer yang menggunakan prinsip-prinsip mekanika kuantum untuk melakukan
-            komputasi. Mekanika kuantum adalah teori fisika yang menjelaskan perilaku partikel-partikel subatomik
-            seperti elektron dan foton. Dalam mekanika kuantum, partikel-partikel ini dapat berada dalam banyak keadaan
-            yang berbeda secara bersamaan, yang dikenal sebagai superposisi. Mereka juga dapat saling terkait secara tak
-            terpisahkan dalam fenomena yang disebut entanglement.</p>
+        <!-- Materi 1 start -->
+        <article id="A" class="flex flex-col">
+            <h2 class="text-xl font-semibold mt-8">A. Komputer dan Komponen Penyusunnya</h2>
+            <p class="text-justify">Komputer adalah sebuah perangkat elektronik yang dapat menerima, memproses, dan
+                menyimpan data untuk menghasilkan informasi yang berguna. Komputer terdiri dari berbagai komponen yang
+                bekerja bersama-sama untuk menjalankan tugas-tugas yang diberikan kepadanya.</p>
+            <figure class="flex flex-col m-4">
+                <img src="../assets/img/materi/4.2.PNG" alt="" class="w-10/12 max-w-md self-center">
+                <figcaption class="self-center text-xs justify-center">Gambar 4.2 Diagram Blok Konseptual Komputer
+                    Sumber: Dokumen Kemendikbud,2021</figcaption>
+            </figure>
+            <p>Gambaran umum sebuah komputer
+                tampak pada Gambar 4.2, di mana “data” (teks, suara, klik, sentuhan, atau
+                lainnya) dari peranti masukan akan diproses oleh Central Processing Unit (CPU)
+                untuk menghasilkan output berupa tampilan informasi, sinyal reaksi, dll. yang
+                direpresentasikan melalui peranti keluaran.
+            </p>
 
-        <h2 id="chapter2" class="text-xl font-semibold mt-8">Qubit dan Komputasi Quantum</h2>
-        <p>Dalam komputasi klasik, informasi disimpan dalam bit, yang dapat berupa 0 atau 1. Namun, dalam quantum
-            komputer, informasi disimpan dalam qubit, yang juga dapat berada dalam keadaan superposisi dari 0 dan 1
-            secara bersamaan. Ini memungkinkan quantum komputer untuk melakukan komputasi secara paralel dan menangani
-            masalah yang jauh lebih kompleks daripada komputer klasik.</p>
+            <!-- sub start -->
+            <section id="Asub1" class="m-3">
+                <h3 class="text-base font-bold">1. Sistem komputer</h3>
+                <p>Sistem komputer terdiri dari tiga komponen utama: perangkat keras (hardware), perangkat lunak (software),
+                    dan pengguna. Mari kita bahas lebih detail tentang setiap komponen ini :</p>
+                <ul class="list-decimal list-inside m-3 ">
+                    <li>
+                        <strong>Perangkat Keras (Hardware)</strong>: Komponen perangkat keras meliputi semua komponen fisik yang membentuk sistem komputer. Ini termasuk unit pemroses sentral (CPU), memori (RAM), penyimpanan (hard disk, SSD), papan induk (motherboard), kartu grafis, monitor, keyboard, mouse, dan perangkat keras lainnya. Perangkat keras bertanggung jawab untuk menjalankan tugas fisik dalam sistem komputer.
+                    </li>
+                    <li>
+                        <strong>Perangkat Lunak (Software)</strong>: Komponen perangkat lunak mencakup program-program yang dijalankan oleh sistem komputer. Perangkat lunak meliputi sistem operasi (seperti Windows, macOS, Linux), aplikasi (seperti Microsoft Word, Adobe Photoshop), perangkat lunak pengontrol perangkat keras (seperti driver), dan perangkat lunak kustom yang dikembangkan untuk keperluan khusus. Perangkat lunak memberikan instruksi kepada perangkat keras dan memungkinkan pengguna untuk menjalankan berbagai tugas dan aplikasi.
+                    </li>
+                    <li>
+                        <strong>Pengguna</strong>: Pengguna adalah individu atau entitas yang berinteraksi dengan sistem komputer. Pengguna menggunakan perangkat keras dan perangkat lunak untuk menjalankan aplikasi, mengakses data, dan melakukan tugas komputasi lainnya. Pengguna berinteraksi dengan sistem komputer melalui antarmuka pengguna, seperti layar, keyboard, dan mouse, serta melalui perintah dan input yang diberikan kepada sistem.
+                    </li>
+                </ul>
+                <p>Sistem komputer terdiri dari komponen perangkat keras, perangkat lunak, dan pengguna yang saling
+                    berhubungan dan bekerja bersama untuk menjalankan tugas komputasi dan menyediakan fungsionalitas yang
+                    dibutuhkan.</p>
+            </section>
+        </article>
+        <!-- Materi 1 end -->
 
-        <h2 id="chapter3" class="text-xl font-semibold mt-8">Aplikasi Quantum Komputer</h2>
-        <p>Salah satu aplikasi potensial quantum komputer adalah dalam pemecahan masalah yang sulit secara
-            komputasional, seperti faktorisasi bilangan besar dan optimisasi kombinatorial. Algoritma Shor, yang
-            dikembangkan oleh Peter Shor pada tahun 1994, menunjukkan bahwa quantum komputer dapat secara efisien
-            memecahkan masalah faktorisasi, yang merupakan dasar dari keamanan sistem enkripsi yang saat ini banyak
-            digunakan.</p>
 
-        <h2 id="chapter4" class="text-xl font-semibold mt-8">Tantangan dalam Quantum Komputer</h2>
-        <p>Namun, meskipun quantum komputer menawarkan potensi yang sangat besar, mereka masih dalam tahap pengembangan
-            awal dan dihadapkan pada beberapa tantangan. Salah satu tantangan utama adalah menjaga kestabilan dan
-            ketepatan qubit selama operasi komputasi. Qubit sangat rentan terhadap gangguan lingkungan, seperti suhu,
-            radiasi, dan interaksi dengan partikel lain. Oleh karena itu, pengembangan teknologi yang dapat menjaga dan
-            mengendalikan qubit dengan presisi tinggi menjadi fokus utama dalam pengembangan quantum komputer.</p>
         <!-- toolbar -->
         <div class="toolbarContainer">
             <div class="md:hidden flex items-center">
