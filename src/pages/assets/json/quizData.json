@@ -1,0 +1,105 @@
+{
+   "quizData": [
+     {
+       "question": "Apa yang dimaksud dengan CPU?",
+       "answers": [
+         "Central Processing Unit",
+         "Computer Processing Unit",
+         "Control Processing Unit",
+         "Central Power Unit"
+       ],
+       "correctAnswer": 0
+     },
+     {
+       "question": "Apa fungsi RAM dalam komputer?",
+       "answers": [
+         "Menyimpan data jangka pendek",
+         "Menyimpan data jangka panjang",
+         "Menjalankan program aplikasi",
+         "Menyimpan file sistem operasi"
+       ],
+       "correctAnswer": 0
+     },
+     {
+       "question": "Apa yang dimaksud dengan GPU?",
+       "answers": [
+         "Graphics Processing Unit",
+         "General Processing Unit",
+         "Graphical Power Unit",
+         "General Power Unit"
+       ],
+       "correctAnswer": 0
+     },
+     {
+       "question": "Apa yang dimaksud dengan SSD?",
+       "answers": [
+         "Solid State Drive",
+         "Super Speed Drive",
+         "Secondary Storage Device",
+         "System Software Driver"
+       ],
+       "correctAnswer": 0
+     },
+     {
+       "question": "Apa yang dimaksud dengan BIOS?",
+       "answers": [
+         "Basic Input Output System",
+         "Binary Input Output System",
+         "Basic Input Operating System",
+         "Binary Input Operating System"
+       ],
+       "correctAnswer": 0
+     },
+     {
+       "question": "Apa yang dimaksud dengan GPU?",
+       "answers": [
+         "Graphics Processing Unit",
+         "General Processing Unit",
+         "Graphical Power Unit",
+         "General Power Unit"
+       ],
+       "correctAnswer": 0
+     },
+     {
+       "question": "Apa yang dimaksud dengan SSD?",
+       "answers": [
+         "Solid State Drive",
+         "Super Speed Drive",
+         "Secondary Storage Device",
+         "System Software Driver"
+       ],
+       "correctAnswer": 0
+     },
+     {
+       "question": "Apa yang dimaksud dengan BIOS?",
+       "answers": [
+         "Basic Input Output System",
+         "Binary Input Output System",
+         "Basic Input Operating System",
+         "Binary Input Operating System"
+       ],
+       "correctAnswer": 0
+     },
+     {
+       "question": "Apa yang dimaksud dengan GPU?",
+       "answers": [
+         "Graphics Processing Unit",
+         "General Processing Unit",
+         "Graphical Power Unit",
+         "General Power Unit"
+       ],
+       "correctAnswer": 0
+     },
+     {
+       "question": "Apa yang dimaksud dengan SSD?",
+       "answers": [
+         "Solid State Drive",
+         "Super Speed Drive",
+         "Secondary Storage Device",
+         "System Software Driver"
+       ],
+       "correctAnswer": 0
+     }
+   ]
+ }
+ 
