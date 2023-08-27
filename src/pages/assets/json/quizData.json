@@ -1,105 +1,169 @@
 {
-   "quizData": [
-     {
-       "question": "Apa yang dimaksud dengan CPU?",
-       "answers": [
-         "Central Processing Unit",
-         "Computer Processing Unit",
-         "Control Processing Unit",
-         "Central Power Unit"
-       ],
-       "correctAnswer": 0
-     },
-     {
-       "question": "Apa fungsi RAM dalam komputer?",
-       "answers": [
-         "Menyimpan data jangka pendek",
-         "Menyimpan data jangka panjang",
-         "Menjalankan program aplikasi",
-         "Menyimpan file sistem operasi"
-       ],
-       "correctAnswer": 0
-     },
-     {
-       "question": "Apa yang dimaksud dengan GPU?",
-       "answers": [
-         "Graphics Processing Unit",
-         "General Processing Unit",
-         "Graphical Power Unit",
-         "General Power Unit"
-       ],
-       "correctAnswer": 0
-     },
-     {
-       "question": "Apa yang dimaksud dengan SSD?",
-       "answers": [
-         "Solid State Drive",
-         "Super Speed Drive",
-         "Secondary Storage Device",
-         "System Software Driver"
-       ],
-       "correctAnswer": 0
-     },
-     {
-       "question": "Apa yang dimaksud dengan BIOS?",
-       "answers": [
-         "Basic Input Output System",
-         "Binary Input Output System",
-         "Basic Input Operating System",
-         "Binary Input Operating System"
-       ],
-       "correctAnswer": 0
-     },
-     {
-       "question": "Apa yang dimaksud dengan GPU?",
-       "answers": [
-         "Graphics Processing Unit",
-         "General Processing Unit",
-         "Graphical Power Unit",
-         "General Power Unit"
-       ],
-       "correctAnswer": 0
-     },
-     {
-       "question": "Apa yang dimaksud dengan SSD?",
-       "answers": [
-         "Solid State Drive",
-         "Super Speed Drive",
-         "Secondary Storage Device",
-         "System Software Driver"
-       ],
-       "correctAnswer": 0
-     },
-     {
-       "question": "Apa yang dimaksud dengan BIOS?",
-       "answers": [
-         "Basic Input Output System",
-         "Binary Input Output System",
-         "Basic Input Operating System",
-         "Binary Input Operating System"
-       ],
-       "correctAnswer": 0
-     },
-     {
-       "question": "Apa yang dimaksud dengan GPU?",
-       "answers": [
-         "Graphics Processing Unit",
-         "General Processing Unit",
-         "Graphical Power Unit",
-         "General Power Unit"
-       ],
-       "correctAnswer": 0
-     },
-     {
-       "question": "Apa yang dimaksud dengan SSD?",
-       "answers": [
-         "Solid State Drive",
-         "Super Speed Drive",
-         "Secondary Storage Device",
-         "System Software Driver"
-       ],
-       "correctAnswer": 0
-     }
-   ]
- }
- 
+  "quizData": [
+    {
+      "question": "Apa fungsi utama dari sistem operasi pada komputer?",
+      "answers": ["Mengontrol sumber daya perangkat keras dan perangkat lunak.", "Menghasilkan data yang berguna.", "Memproses data menjadi informasi.", "Mengontrol akses internet."],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Prosesor komputer bertanggung jawab atas tugas apa dalam sistem komputer?",
+      "answers": ["Menyimpan data jangka panjang.", "Mengontrol perangkat input.", "Melakukan operasi aritmatika dan logika.", "Menampilkan output grafis."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'RAM' dalam konteks komputer?",
+      "answers": ["Rekaman Aktivitas Mekanis.", "Ruang Akses Media.", "Random Access Memory.", "Read-Only Memory."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Interaksi antara perangkat keras, perangkat lunak, dan pengguna komputer terjadi melalui apa?",
+      "answers": ["RAM.", "Algoritma.", "Sistem Operasi.", "CPU."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Bagaimana peran sistem operasi dalam mengelola file pada komputer?",
+      "answers": ["Menampilkan file secara fisik di layar.", "Mengatur urutan karakter dalam file teks.", "Mengontrol akses, penyimpanan, dan manipulasi file.", "Mengubah tampilan antarmuka pengguna."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Prosesor komputer terdiri dari dua bagian utama, yaitu _____.",
+      "answers": ["Input dan Output.", "ALU dan CU.", "RAM dan ROM.", "Perangkat Keras dan Perangkat Lunak."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'perangkat keras' dalam konteks sistem komputer?",
+      "answers": [
+        "Program perangkat lunak yang digunakan untuk mengamankan sistem.",
+        "Komponen fisik yang membentuk komputer, seperti CPU, RAM, dan hard drive.",
+        "Instruksi yang mengontrol operasi sistem komputer.",
+        "Bahasa pemrograman tingkat rendah."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Bagaimana data diwakili dalam sistem komputer?",
+      "answers": ["Melalui kombinasi elemen visual.", "Sebagai bahasa pemrograman.", "Dalam bentuk bit (binary digit) yang dapat bernilai 0 atau 1.", "Dalam bentuk fungsi matematis."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Apa perbedaan antara perangkat keras dan perangkat lunak dalam konteks sistem komputer?",
+      "answers": [
+        "Perangkat keras adalah program yang dieksekusi oleh perangkat lunak.",
+        "Perangkat keras adalah komponen fisik, sedangkan perangkat lunak adalah bahasa pemrograman.",
+        "Perangkat keras adalah instruksi kepada komputer, sedangkan perangkat lunak adalah komponen fisik.",
+        "Perangkat keras dan perangkat lunak adalah istilah yang saling dapat dipertukarkan."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'input' dalam konteks sistem komputer?",
+      "answers": ["Hasil dari pemrosesan data.", "Instruksi yang diberikan oleh pengguna.", "Data yang dimasukkan ke dalam komputer untuk diproses.", "Prosesor komputer."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Bagaimana data diubah menjadi informasi dalam konteks sistem komputer?",
+      "answers": ["Melalui interaksi pengguna dengan perangkat keras.", "Dengan mengirim data melalui jaringan komputer.", "Melalui pemrosesan data oleh perangkat keras.", "Melalui pemrosesan data oleh perangkat lunak."],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'output' dalam konteks sistem komputer?",
+      "answers": ["Data yang dimasukkan ke dalam komputer.", "Hasil dari pemrosesan data yang ditampilkan kepada pengguna.", "Instruksi kepada perangkat keras.", "Bahasa pemrograman."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Bagaimana peran sistem operasi dalam mengelola memori komputer?",
+      "answers": ["Memori komputer hanya dikelola oleh perangkat keras.", "Mengelola penyimpanan data pada hard drive.", "Mengontrol akses pengguna ke komputer.", "Mengatur alokasi memori untuk program dan data yang sedang berjalan."],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'kernel' dalam sistem operasi?",
+      "answers": ["Program aplikasi yang sangat penting.", "Bagian dari RAM yang digunakan oleh sistem operasi.", "Inti dari sistem operasi yang mengelola sumber daya perangkat keras.", "Prosesor yang mengendalikan operasi input/output."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Bagaimana komunikasi antara perangkat keras dan perangkat lunak terjadi dalam sistem komputer?",
+      "answers": ["Hanya melalui pengguna.", "Melalui pengolahan data dalam memori.", "Melalui sistem operasi dan driver perangkat keras.", "Hanya melalui jaringan komputer."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'multitasking' dalam sistem operasi?",
+      "answers": [
+        "Menggunakan beberapa perangkat keras pada saat yang sama.",
+        "Menjalankan beberapa program atau tugas secara bersamaan.",
+        "Menghubungkan beberapa komputer dalam jaringan.",
+        "Memasukkan banyak data ke dalam komputer secara cepat."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'pengolahan paralel' dalam konteks sistem komputer?",
+      "answers": [
+        "Menjalankan program-program yang identik secara bersamaan.",
+        "Menggunakan beberapa perangkat keras yang berbeda dalam satu komputer.",
+        "Melakukan operasi matematika dalam waktu yang bersamaan.",
+        "Menjalankan banyak program berbeda di beberapa komputer."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Apa perbedaan antara perangkat keras input dan perangkat keras output?",
+      "answers": [
+        "Perangkat keras input menerima data dari pengguna, sedangkan perangkat keras output mengirim data ke pengguna.",
+        "Perangkat keras input hanya digunakan pada laptop, sedangkan perangkat keras output hanya digunakan pada desktop.",
+        "Perangkat keras input adalah bagian dari perangkat keras output.",
+        "Tidak ada perbedaan antara keduanya."
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'driver perangkat keras'?",
+      "answers": ["Orang yang mengoperasikan perangkat keras dalam produksi.", "Program yang menghubungkan perangkat keras dengan sistem operasi.", "Pemilik perangkat keras.", "Perangkat lunak yang mengontrol perangkat keras."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Mengapa ada kebutuhan akan pemutakhiran (update) sistem operasi dan perangkat lunak?",
+      "answers": ["Agar komputer menjadi lebih cepat dalam pemrosesan data.", "Untuk mengubah tampilan antarmuka pengguna.", "Untuk memperbaiki bug, meningkatkan keamanan, dan menambah fitur baru.", "Hanya untuk mengubah tema visual."],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'compiler' dalam bahasa pemrograman?",
+      "answers": ["Perangkat keras yang mengolah data dalam bahasa pemrograman.", "Program yang menerjemahkan kode sumber ke dalam bahasa mesin.", "Bahasa pemrograman tingkat tinggi.", "Komponen fisik pada papan sirkuit."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'virtual memory' dalam sistem komputer?",
+      "answers": [
+        "Memori yang hanya digunakan oleh program-program virtual.",
+        "Memori yang hanya digunakan dalam mode virtual reality.",
+        "Teknik yang memungkinkan program menggunakan lebih banyak memori daripada yang tersedia dalam RAM fisik.",
+        "Memori yang digunakan untuk penyimpanan data virtual."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Bagaimana sistem operasi mengelola pengguna dan keamanan dalam komputer?",
+      "answers": [
+        "Dengan hanya memberikan akses penuh kepada semua pengguna.",
+        "Dengan menggunakan bahasa pemrograman yang rumit.",
+        "Dengan mengatur hak akses pengguna dan menjaga keamanan sistem.",
+        "Dengan menjalankan program antivirus."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'booting' dalam sistem komputer?",
+      "answers": ["Menjalankan beberapa program berbeda secara bersamaan.", "Menghidupkan komputer dan memuat sistem operasi ke dalam memori.", "Menyimpan data dalam bentuk berkas.", "Menghubungkan komputer ke jaringan."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Apa peran BIOS (Basic Input/Output System) dalam sistem komputer?",
+      "answers": ["Menjalankan program-program aplikasi.", "Mengatur hak akses pengguna.", "Menyediakan antarmuka pengguna.", "Memberikan instruksi awal untuk memulai komputer dan menghubungkan perangkat keras."],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Minum Air Dengan?",
+      "answers": ["Tangan", "Air", "Gelas", "Mulut"],
+      "correctAnswer": 1
+    }
+  ]
+}

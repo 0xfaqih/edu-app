@@ -1,87 +1,81 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+  </head>
 
-<head>
-   <title>Quiz</title>
-   <link rel="stylesheet" href="../../dist/output.css" />
-</head>
-
-<body>
-   <header>
+  <body>
+    <header>
       <div id="navbarContainer">
-         <nav class="fixed top-0 left-0 right-0 backdrop-blur-2xl bg-white/95 z-40">
-            <div class="max-w-6xl mx-auto px-4">
-               <div class="flex justify-between">
-                  <div class="flex space-x-4">
-                     <!-- Logo -->
-                     <div>
-                        <a href="#" class="flex items-center py-5 px-2 text-primary hover:text-black">
-                           <span class="font-bold">MPdroid</span>
-                        </a>
-                     </div>
-                     <!-- Links -->
-                     <div class="hidden md:flex items-center space-x-1">
-                        <a href="./main.html" class="py-5 px-3 text-black hover:text-gray-500">Home</a>
-                        <a href="./ebook.html" class="py-5 px-3 text-black hover:text-gray-500">E-book</a>
-                        <a href="./about.html" class="py-5 px-3 text-black hover:text-gray-500">About</a>
-                     </div>
-                  </div>
-               </div>
+        <nav class="fixed top-0 left-0 right-0 backdrop-blur-2xl bg-white/95 z-40">
+          <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+              <div class="flex space-x-4">
+                <!-- Logo -->
+                <div>
+                  <a href="#" class="flex items-center py-5 px-2 text-primary hover:text-black">
+                    <span class="font-bold">MPdroid</span>
+                  </a>
+                </div>
+                <!-- Links -->
+                <div class="hidden md:flex items-center space-x-1">
+                  <a href="./main.html" class="py-5 px-3 text-black hover:text-gray-500">Home</a>
+                  <a href="./ebook.html" class="py-5 px-3 text-black hover:text-gray-500">E-book</a>
+                  <a href="./about.html" class="py-5 px-3 text-black hover:text-gray-500">About</a>
+                </div>
+              </div>
             </div>
-         </nav>
+          </div>
+        </nav>
       </div>
-   </header>
+    </header>
 
-        <!-- toolbar -->
-        <div class="toolbarContainer">
-         <div class="md:hidden flex items-center">
-             <div
-                 class="fixed bottom-0 left-0 w-full bg-white h-12 flex justify-between items-center px-16 rounded-md">
-                 <a id="btnBack" class="w-6 flex flex-col" href="#">
-                     <img class="w-5" src="../assets/img/arrow-left-solid.svg" alt="" srcset="">
-                 </a>
-                 <a class="w-6 flex flex-col" href="../pages/main.html">
-                     <svg class="" xmlns="http://www.w3.org/2000/svg" height="1em"
-                         viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                         <path
-                             d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
-                     </svg>
-                 </a>
-                 <a class="w-6 flex flex-col" href="../pages/about.html">
-                     <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                         viewBox="0 0 192 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                         <path
-                             d="M48 80a48 48 0 1 1 96 0A48 48 0 1 1 48 80zM0 224c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32V448h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H64V256H32c-17.7 0-32-14.3-32-32z" />
-                     </svg>
-                 </a>
-             </div>
-         </div>
-     </div>
-   <div class="p-11"></div>
+    <!-- toolbar -->
+    <div class="toolbarContainer">
+      <div class="md:hidden flex items-center">
+        <div class="fixed bottom-0 left-0 w-full bg-white h-12 flex justify-between items-center px-16 rounded-md">
+          <a id="btnBack" class="w-6 flex flex-col" href="#">
+            <img class="w-5" src="../assets/img/arrow-left-solid.svg" alt="" srcset="" />
+          </a>
+          <a class="w-6 flex flex-col" href="../pages/main.html">
+            <svg class="" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+              />
+            </svg>
+          </a>
+          <a class="w-6 flex flex-col" href="../pages/about.html">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 192 512">
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path d="M48 80a48 48 0 1 1 96 0A48 48 0 1 1 48 80zM0 224c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32V448h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H64V256H32c-17.7 0-32-14.3-32-32z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="p-11"></div>
 
-   <div class="content">
+    <div class="content">
       <h1 class="text-center font-semibold p-5 text-lg">Quiz sistem komputer</h1>
       <div class="card flex flex-col bg-blue-800 text-white rounded p-6">
-         <div id="question-container" class="pb-7 bg-blue-800">
-
-         </div>
-         <div class="flex flex-col">
-            <button id="submit-btn" class="bg-white text-black rounded w-20 h-7">Next</button>
-            <button id="next-btn" style="display: none;" class="bg-white text-black rounded w-52 h-7 self-center hover:-translate-y-1 hover:scale-110 hover:bg-white duration-300 ">Lanjut materi berikutnya</button>
-            <div id="result-container"></div>
-            <button id="retry-btn"  style="display: none;" onclick="restartQuiz()" class="mt-4 bg-white text-black max-w-md self-center p-2 rounded hover:-translate-y-1 hover:scale-110 hover:bg-white duration-300 ">Ulangi Quiz</button>
-         </div>
-         
+        <div id="question-container" class="pb-7 bg-blue-800"></div>
+        <div class="flex flex-col">
+          <button id="submit-btn" class="bg-white text-black rounded w-20 h-7">Next</button>
+          <button id="next-btn" style="display: none" class="bg-white text-black rounded w-52 h-7 self-center hover:-translate-y-1 hover:scale-110 hover:bg-white duration-300">Lanjut materi berikutnya</button>
+          <div id="result-container"></div>
+          <button id="retry-btn" style="display: none" onclick="restartQuiz()" class="mt-4 bg-white text-black max-w-md self-center p-2 rounded hover:-translate-y-1 hover:scale-110 hover:bg-white duration-300">Ulangi Quiz</button>
+        </div>
       </div>
-   </div>
+    </div>
 
-
-   <script src="assets/js/quiz.js"></script>
-   <script>
+    <script src="assets/js/quiz.js"></script>
+    <script>
       function restartQuiz() {
-         location.reload(); // Refresh halaman
+        location.reload(); // Refresh halaman
       }
-   </script>
-</body>
-
+    </script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

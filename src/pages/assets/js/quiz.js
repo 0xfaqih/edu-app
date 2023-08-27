@@ -1,6 +1,6 @@
 fetch("assets/json/quizData.json")
-  .then(response => response.json())
-  .then(data => {
+  .then((response) => response.json())
+  .then((data) => {
     const quizData = data;
     const questionContainer = document.getElementById("question-container");
     const submitBtn = document.getElementById("submit-btn");
@@ -41,7 +41,7 @@ fetch("assets/json/quizData.json")
         score++;
       }
       currentQuestion++;
-      if (currentQuestion < 5) {
+      if (currentQuestion < 20) {
         loadQuestion();
       } else {
         showResult();
@@ -52,9 +52,9 @@ fetch("assets/json/quizData.json")
       questionContainer.style.display = "none";
       submitBtn.style.display = "none";
       nextBtn.style.display = "block";
-      const percentage = (score / 5) * 100;
+      const percentage = (score / 20) * 100;
       resultContainer.innerHTML = `<h2 class="font-semibold py-4">Quiz Selesai</h2>`;
-      resultContainer.innerHTML += `<p class="bg-black h-7 rounded-t-lg text-center self-center place-self-center ">Skor kamu: ${score}/5 (${percentage}%)</p>`;
+      resultContainer.innerHTML += `<p class="bg-black h-7 pt-2 pb-2 rounded-t-lg text-center self-center place-self-center ">Skor kamu: ${score}/20 (${percentage}%)</p>`;
       if (percentage >= 80) {
         resultContainer.innerHTML += `<p class="rounded-b-lg self-center p-3 bg-green-600">Selamat kamu bisa lanjut ke materi selanjutnya</p>`;
         nextBtn.disabled = false;
@@ -63,7 +63,6 @@ fetch("assets/json/quizData.json")
         nextBtn.disabled = true;
         document.getElementById("next-btn").style.display = "none";
         document.getElementById("retry-btn").style.display = "block";
-
       }
     }
 
@@ -85,4 +84,4 @@ fetch("assets/json/quizData.json")
     shuffleQuestions();
     loadQuestion();
   })
-  .catch(error => console.log(error));
+  .catch((error) => console.log(error));
