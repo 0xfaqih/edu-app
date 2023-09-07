@@ -161,9 +161,52 @@
       "correctAnswer": 3
     },
     {
-      "question": "Minum Air Dengan?",
-      "answers": ["Tangan", "Air", "Gelas", "Mulut"],
-      "correctAnswer": 1
+      "question": "Apa ya?",
+      "image" : "assets/img/algoritma.svg",
+      "answers": ["ada", "tidak ada", "mana ada", "apa"],
+      "correctAnswer" : 0
+    },
+    {
+      "question": "Apa ya?",
+      "image" : "assets/img/algoritma.svg",
+      "answers": ["ada", "tidak ada", "mana ada", "apa"],
+      "correctAnswer" : 0
+    },
+    {
+      "question": "Apa ya?",
+      "image" : "assets/img/algoritma.svg",
+      "answers": ["ada", "tidak ada", "mana ada", "apa"],
+      "correctAnswer" : 0
+    },
+    {
+      "question": "Apa ya?",
+      "image" : "assets/img/algoritma.svg",
+      "answers": ["ada", "tidak ada", "mana ada", "apa"],
+      "correctAnswer" : 0
+    },
+    {
+      "question": "Apa ya?",
+      "image" : "assets/img/algoritma.svg",
+      "answers": ["ada", "tidak ada", "mana ada", "apa"],
+      "correctAnswer" : 0
+    },
+    {
+      "question": "Apa ya?",
+      "image" : "assets/img/algoritma.svg",
+      "answers": ["ada", "tidak ada", "mana ada", "apa"],
+      "correctAnswer" : 0
+    },
+    {
+      "question": "Apa ya?",
+      "image" : "assets/img/algoritma.svg",
+      "answers": ["ada", "tidak ada", "mana ada", "apa"],
+      "correctAnswer" : 0
+    },
+    {
+      "question": "Apa ya?",
+      "image" : "assets/img/algoritma.svg",
+      "answers": ["ada", "tidak ada", "mana ada", "apa"],
+      "correctAnswer" : 0
     }
   ]
 }

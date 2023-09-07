@@ -9,6 +9,7 @@ fetch("assets/json/quizData.json")
 
     let currentQuestion = 0;
     let score = 0;
+    const totalQuestions = 10; // Jumlah total soal yang ingin ditampilkan
 
     // Mengacak urutan soal dalam array quizData
     function shuffleQuestions() {
@@ -19,14 +20,29 @@ fetch("assets/json/quizData.json")
     }
 
     // Memuat pertanyaan ke dalam kontainer
-    function loadQuestion() {
-      const currentQuiz = quizData.quizData[currentQuestion];
-      questionContainer.innerHTML = "";
-      questionContainer.innerHTML += `<h2 class="py-4">${currentQuiz.question}</h2>`;
-      for (let i = 0; i < currentQuiz.answers.length; i++) {
-        questionContainer.innerHTML += `<input type="radio" name="answer" value="${i}">${currentQuiz.answers[i]}<br>`;
-      }
-    }
+    // Memuat pertanyaan ke dalam kontainer
+// Memuat pertanyaan ke dalam kontainer
+function loadQuestion() {
+  const currentQuiz = quizData.quizData[currentQuestion];
+  questionContainer.innerHTML = "";
+  questionContainer.innerHTML += `<h2 class="py-4">${currentQuiz.question}</h2>`;
+  if (currentQuiz.image) {
+    questionContainer.innerHTML += `<img src="${currentQuiz.image}" alt="Gambar pertanyaan" class="my-4">`;
+  }
+  for (let i = 0; i < currentQuiz.answers.length; i++) {
+    const answerText = currentQuiz.answers[i];
+    const answerElement = document.createElement('div');
+    answerElement.innerHTML = `<label><input type="radio" name="answer" value="${i}">${answerText}</label><br>`;
+    const radioInput = answerElement.querySelector('input[type="radio"]');
+    answerElement.addEventListener('click', function() {
+      radioInput.checked = true;
+    });
+    questionContainer.appendChild(answerElement);
+  }
+}
+
+// ...Sisa kode Anda...
+
 
     function checkAnswer() {
       const answerInputs = document.getElementsByName("answer");
@@ -41,7 +57,7 @@ fetch("assets/json/quizData.json")
         score++;
       }
       currentQuestion++;
-      if (currentQuestion < 20) {
+      if (currentQuestion < totalQuestions) {
         loadQuestion();
       } else {
         showResult();
@@ -52,9 +68,9 @@ fetch("assets/json/quizData.json")
       questionContainer.style.display = "none";
       submitBtn.style.display = "none";
       nextBtn.style.display = "block";
-      const percentage = (score / 20) * 100;
+      const percentage = (score / totalQuestions) * 100;
       resultContainer.innerHTML = `<h2 class="font-semibold py-4">Quiz Selesai</h2>`;
-      resultContainer.innerHTML += `<p class="bg-black h-7 pt-2 pb-2 rounded-t-lg text-center self-center place-self-center ">Skor kamu: ${score}/20 (${percentage}%)</p>`;
+      resultContainer.innerHTML += `<p class="bg-black h-7 pt-2 pb-2 rounded-t-lg text-center self-center place-self-center ">Skor kamu: ${score}/${totalQuestions} (${percentage}%)</p>`;
       if (percentage >= 80) {
         resultContainer.innerHTML += `<p class="rounded-b-lg self-center p-3 bg-green-600">Selamat kamu bisa lanjut ke materi selanjutnya</p>`;
         nextBtn.disabled = false;
