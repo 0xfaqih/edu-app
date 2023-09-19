@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth scroll-pt-20">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bab 4 </title>
+    <link rel="stylesheet" href="../../dist/output.css">
+</head>
+<style>
+    .hidden {
+        display: none;
+    }
+
+    ol.list-alpha li {
+        list-style-type: upper-alpha;
+    }
+
+    #subjudul li {
+        list-style-type: decimal;
+    }
+</style>
+
+<body class="bg-gray-100">
+    <header>
+        <div id="navbarContainer">
+            <nav class="fixed top-0 left-0 right-0 backdrop-blur-2xl bg-white/95">
+                <div class="max-w-6xl mx-auto px-4">
+                    <div class="flex justify-between">
+                        <div class="flex space-x-4">
+                            <!-- Logo -->
+                            <div>
+                                <a href="#" class="flex items-center py-5 px-2 text-primary hover:text-black">
+                                    <span class="font-bold">MPdroid</span>
+                                </a>
+                            </div>
+                            <!-- Links -->
+                            <div class="hidden md:flex items-center space-x-1">
+                                <a href="#" class="py-5 px-3 text-black hover:text-gray-500">Home</a>
+                                <a href="#" class="py-5 px-3 text-black hover:text-gray-500">E-book</a>
+                                <a href="#" class="py-5 px-3 text-black hover:text-gray-500">About</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container mx-auto p-5 py-20">
+        <h1 class="text-2xl font-bold mb-4">Teknologi Informasi dan Komunikasi</h1>
+        <button id="toggleButton"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex">
+            <img class="w-4" src="../assets/img/expand-button.png" alt="" srcset="">
+        </button>
+
+        <!-- daftar isi -->
+        <div id="daftarIsi" class="mt-4 hidden">
+            <div class="bg-white rounded-lg shadow-lg p-4">
+                <h2 class="text-xl font-semibold mb-2">Daftar Isi</h2>
+                <ol class="space-y-2 list-alpha list-inside">
+                    <li><a href="#A" class="text-blue-500 hover:underline font-bold">Pengertian TIK</a></li>
+                    <li><a href="#B" class="text-blue-500 hover:underline font-bold">Manfaat Teknologi Informasi Dan Komunikasi</a></li>
+                    <div id="subjudul">
+                        <ul class="mx-10">
+                            <li>
+                                <a href="#Asub1" class="text-blue-500 hover:underline">Sarana Komunikas</a>
+                            </li>
+                            <li>
+                                <a href="#Asub2" class="text-blue-500 hover:underline">Mempermudah Proses Belajar</a>
+                            </li>
+                            <li>
+                                <a href="#Asub3" class="text-blue-500 hover:underline">Media Bertukar Informasi</a>
+                            </li>
+                            <li>
+                                <a href="#Asub4" class="text-blue-500 hover:underline">Menghemat Biaya</a>
+                            </li>
+                            <li>
+                                <a href="#Asub5" class="text-blue-500 hover:underline">Meningkatkan Produktivitas</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Materi 1 start -->
+        <article id="A" class="flex flex-col">
+            <h2 class="text-xl font-semibold mt-8">Pengertian TIK</h2>
+            <p class="text-justify pb-2">Apa Yang Dimaksud Dengan TIK (Teknologi Informasi Dan Komunikasi)? Secara Terminologi, Pengertian TIK Adalah Suatu Proses Dalam Menyampaikan Informasi Melalui Pengolahan Data Yang Melibatkan Pengiriman Dan Penerimaan Informasi Dengan Menggunakan Simbol Tertentu.</p>
+            <p class="text-justify pb-2">
+            Dalam Bahasa Inggris, TIK Disebut Dengan Information And Communication Technology (ICT). Teknologi Informasi Dan Komunikasi Adalah Teknologi Yang Berhubungan Dengan Pengambilan, Pengumpulan, Pengolahan, Penyimpangan, Penyebaran, Dan Penyajian Informasi.
+            </p>
+            <figure class="flex flex-col m-4">
+                <img src="../assets/img/materi/m-tik-1.jpg" alt="" class="w-10/12 max-w-md self-center">
+                
+            </figure>
+            <!-- sub start -->
+            <section class="m-3">
+                <h2 id="B" class="text-xl font-semibold mt-8">Manfaat Teknologi Informasi Dan Komunikasi</h2>
+                <p>Setelah Membahas Beberapa Fungsi TIK Secara Umum, Tentunya Kita Akan Dapat Mengetahui Apa Saja Manfaatnya Bagi Manusia. Berikut Ini Adalah 5 (Lima) Manfaat Utama TIK Bagi Manusia, Yaitu;</p>
+                <ul class="list-decimal list-inside m-3 ">
+                    <li id="Asub1" class="mt-1">
+                        <strong>Sarana Komunikasi</strong>: Cara Berkomunikasi Antar Manusia Telah Mengalami Perubahan Dari Waktu Ke Waktu. Bila Dulu Surat Merupakan Cara Berkomunikasi Yang Banyak Dilakukan, Saat Ini Sarana Berkomunikasi Sudah Menggunakan Email, Ponsel, Dan Media Sosial.
+                    </li>
+                    <li id="Asub2" class="mt-1">
+                        <strong >Mempermudah Proses Belajar</strong>: Bila Dahulu Media Informasi Dan Pembelajaran Hanya Dari Media Cetak Seperti Buku, Majalah, Dan Surat Kabar, Saat Ini Media Tersebut Telah Banyak Digantikan Oleh Internet Yang Dapat Mengakses Informasi Dari Artikel Website, Ebook, Video, Dan Bentuk Informasi Lainnya Dengan Mudah.
+                    </li>
+                    <li id="Asub3" class="mt-1">
+                        <strong>Media Bertukar Informasi</strong>: Dengan Teknologi Informasi Dan Komunikasi, Manusia Memiliki Kemudahan Dalam Mengakses Informasi, Baik Melalui Perangkat Mobile Maupun Komputer. Selain Itu, Pengguna Internet Pun Dapat Saling Bertukar Informasi Satu Sama Lainnya Sehingga Masing-Masing Orang Dapat Menambah Pengetahuannya.
+                    </li>
+                    <li id="Asub4" class="mt-1">
+                        <strong>Menghemat Biaya</strong>: Teknologi Informasi Dan Komunikasi Saat Ini Mengalami Pertumbuhan Yang Sangat Pesat. Berbagai Informasi Dapat Diakses Secara Gratis, Dan Berkomunikasi Dengan Orang Lain Pun Menjadi Lebih Murah Dengan Menggunakan Internet Dan Perangkat Mobile Atau Komputer.
+                    </li>
+                    <li id="Asub5" class="mt-1">
+                        <strong>Meningkatkan Produktivitas</strong>: Manfaat TIK Dalam Peningkatan Produktivitas Sangat Dirasakan Oleh Masyarakat Secara Umum. Sebagai Contoh, Para Pekerja Dapat Mengirimkan Hasil Pekerjaannya Kepada Atasan Atau Kolega Melalui Email Dimana Prosesnya Lebih Cepat Dan Aman.
+                    </li>
+                </ul>
+            </section>
+        </article>
+        <!-- Materi 1 end -->
+
+
+        <!-- toolbar -->
+        <div class="toolbarContainer">
+            <div class="md:hidden flex items-center">
+                <div
+                    class="fixed bottom-0 left-0 w-full bg-white h-12 flex justify-between items-center px-16 rounded-md">
+                    <a id="btnBack" class="w-6 flex flex-col" href="#">
+                        <img class="w-5" src="../assets/img/arrow-left-solid.svg" alt="" srcset="">
+                    </a>
+                    <a class="w-6 flex flex-col" href="../pages/main.html">
+                        <svg class="" xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
+                        </svg>
+                    </a>
+                    <a class="w-6 flex flex-col" href="../pages/about.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 192 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M48 80a48 48 0 1 1 96 0A48 48 0 1 1 48 80zM0 224c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32V448h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H64V256H32c-17.7 0-32-14.3-32-32z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+       
+        
+        
+    </div>
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const daftarIsi = document.getElementById('daftarIsi');
+
+        toggleButton.addEventListener('click', function () {
+            daftarIsi.classList.toggle('hidden');
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,180 +1,349 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth scroll-pt-20">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bab 4 </title>
-    <link rel="stylesheet" href="../../dist/output.css">
-</head>
-<style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bab 4</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+  </head>
+  <style>
     .hidden {
-        display: none;
+      display: none;
     }
 
     ol.list-alpha li {
-        list-style-type: upper-alpha;
+      list-style-type: upper-alpha;
     }
 
     #subjudul li {
-        list-style-type: decimal;
+      list-style-type: decimal;
     }
-</style>
+  </style>
 
-<body class="bg-gray-100">
+  <body class="bg-gray-100">
     <header>
-        <div id="navbarContainer">
-            <nav class="fixed top-0 left-0 right-0 backdrop-blur-2xl bg-white/95">
-                <div class="max-w-6xl mx-auto px-4">
-                    <div class="flex justify-between">
-                        <div class="flex space-x-4">
-                            <!-- Logo -->
-                            <div>
-                                <a href="#" class="flex items-center py-5 px-2 text-primary hover:text-black">
-                                    <span class="font-bold">MPdroid</span>
-                                </a>
-                            </div>
-                            <!-- Links -->
-                            <div class="hidden md:flex items-center space-x-1">
-                                <a href="#" class="py-5 px-3 text-black hover:text-gray-500">Home</a>
-                                <a href="#" class="py-5 px-3 text-black hover:text-gray-500">E-book</a>
-                                <a href="#" class="py-5 px-3 text-black hover:text-gray-500">About</a>
-                            </div>
-                        </div>
-                    </div>
+      <div id="navbarContainer">
+        <nav class="fixed top-0 left-0 right-0 backdrop-blur-2xl bg-white/95">
+          <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+              <div class="flex space-x-4">
+                <!-- Logo -->
+                <div>
+                  <a href="#" class="flex items-center py-5 px-2 text-primary hover:text-black">
+                    <span class="font-bold">MPdroid</span>
+                  </a>
                 </div>
-            </nav>
-        </div>
+                <!-- Links -->
+                <div class="hidden md:flex items-center space-x-1">
+                  <a href="#" class="py-5 px-3 text-black hover:text-gray-500">Home</a>
+                  <a href="#" class="py-5 px-3 text-black hover:text-gray-500">E-book</a>
+                  <a href="#" class="py-5 px-3 text-black hover:text-gray-500">About</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <div class="container mx-auto p-5 py-20">
-        <h1 class="text-2xl font-bold mb-4">Sistem Komputer</h1>
-        <button id="toggleButton"
-            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex">
-            <img class="w-4" src="../assets/img/expand-button.png" alt="" srcset="">
-        </button>
+      <h1 class="text-2xl font-bold mb-4">Sistem Komputer</h1>
+      <button id="toggleButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex">
+        <img class="w-4" src="../assets/img/expand-button.png" alt="" srcset="" />
+      </button>
 
-        <!-- daftar isi -->
-        <div id="daftarIsi" class="mt-4 hidden">
-            <div class="bg-white rounded-lg shadow-lg p-4">
-                <h2 class="text-xl font-semibold mb-2">Daftar Isi</h2>
-                <ol class="space-y-2 list-alpha list-inside">
-                    <li><a href="#A" class="text-blue-500 hover:underline font-bold">Komputer dan Komponen
-                            Penyusunnya</a></li>
-                    <div id="subjudul">
-                        <ul class="mx-10">
-                            <li>
-                                <a href="#Asub1" class="text-blue-500 hover:underline">Sistem Komputer</a>
-                            </li>
-                            <li>
-                                <a href="#Asub2" class="text-blue-500 hover:underline">Jenis Jenis Komputer</a>
-                            </li>
-                        </ul>
-                    </div>
-                    </li>
-                </ol>
-            </div>
-        </div>
-
-        <!-- Materi 1 start -->
-        <article id="A" class="flex flex-col">
-            <h2 class="text-xl font-semibold mt-8">A. Komputer dan Komponen Penyusunnya</h2>
-            <p class="text-justify">Komputer adalah sebuah perangkat elektronik yang dapat menerima, memproses, dan
-                menyimpan data untuk menghasilkan informasi yang berguna. Komputer terdiri dari berbagai komponen yang
-                bekerja bersama-sama untuk menjalankan tugas-tugas yang diberikan kepadanya.</p>
-            <figure class="flex flex-col m-4">
-                <img src="../assets/img/materi/4.2.PNG" alt="" class="w-10/12 max-w-md self-center">
-                <figcaption class="self-center text-xs justify-center">Gambar 4.2 Diagram Blok Konseptual Komputer
-                    Sumber: Dokumen Kemendikbud,2021</figcaption>
-            </figure>
-            <p>Gambaran umum sebuah komputer
-                tampak pada Gambar 4.2, di mana “data” (teks, suara, klik, sentuhan, atau
-                lainnya) dari peranti masukan akan diproses oleh Central Processing Unit (CPU)
-                untuk menghasilkan output berupa tampilan informasi, sinyal reaksi, dll. yang
-                direpresentasikan melalui peranti keluaran.
-            </p>
-
-            <!-- sub start -->
-            <section id="Asub1" class="m-3">
-                <h3 class="text-base font-bold">1. Sistem komputer</h3>
-                <p>Sistem komputer terdiri dari tiga komponen utama: perangkat keras (hardware), perangkat lunak
-                    (software),
-                    dan pengguna. Mari kita bahas lebih detail tentang setiap komponen ini :</p>
-                <ul class="list-disc list-inside m-3 ">
-                    <li>
-                        <strong>Perangkat Keras (Hardware)</strong>: Komponen perangkat keras meliputi semua komponen
-                        fisik yang membentuk sistem komputer. Ini termasuk unit pemroses sentral (CPU), memori (RAM),
-                        penyimpanan (hard disk, SSD), papan induk (motherboard), kartu grafis, monitor, keyboard, mouse,
-                        dan perangkat keras lainnya. Perangkat keras bertanggung jawab untuk menjalankan tugas fisik
-                        dalam sistem komputer.
-                    </li>
-                    <li>
-                        <strong>Perangkat Lunak (Software)</strong>: Komponen perangkat lunak mencakup program-program
-                        yang dijalankan oleh sistem komputer. Perangkat lunak meliputi sistem operasi (seperti Windows,
-                        macOS, Linux), aplikasi (seperti Microsoft Word, Adobe Photoshop), perangkat lunak pengontrol
-                        perangkat keras (seperti driver), dan perangkat lunak kustom yang dikembangkan untuk keperluan
-                        khusus. Perangkat lunak memberikan instruksi kepada perangkat keras dan memungkinkan pengguna
-                        untuk menjalankan berbagai tugas dan aplikasi.
-                    </li>
-                    <li>
-                        <strong>Pengguna</strong>: Pengguna adalah individu atau entitas yang berinteraksi dengan sistem
-                        komputer. Pengguna menggunakan perangkat keras dan perangkat lunak untuk menjalankan aplikasi,
-                        mengakses data, dan melakukan tugas komputasi lainnya. Pengguna berinteraksi dengan sistem
-                        komputer melalui antarmuka pengguna, seperti layar, keyboard, dan mouse, serta melalui perintah
-                        dan input yang diberikan kepada sistem.
-                    </li>
+      <!-- daftar isi -->
+      <div id="daftarIsi" class="mt-4 hidden">
+        <div class="bg-white rounded-lg shadow-lg p-4">
+          <h2 class="text-xl font-semibold mb-2">Daftar Isi</h2>
+          <ol class="space-y-2 list-alpha list-inside">
+            <li>
+              <a href="#A" class="text-blue-500 hover:underline font-bold">Komputer dan Komponen Penyusunnya</a>
+              <div id="subjudul">
+                <ul class="mx-10">
+                  <li>
+                    <a href="#Asub1" class="text-blue-500 hover:underline">Sistem Komputer</a>
+                  </li>
+                  <li>
+                    <a href="#Asub2" class="text-blue-500 hover:underline">Jenis Jenis Komputer</a>
+                  </li>
                 </ul>
-                <p>Sistem komputer terdiri dari komponen perangkat keras, perangkat lunak, dan pengguna yang saling
-                    berhubungan dan bekerja bersama untuk menjalankan tugas komputasi dan menyediakan fungsionalitas
-                    yang
-                    dibutuhkan.</p>
-            </section>
-        </article>
-        <!-- Materi 1 end -->
-
-
-        <!-- toolbar -->
-        <div class="toolbarContainer">
-            <div class="md:hidden flex items-center">
-                <div
-                    class="fixed bottom-0 left-0 w-full bg-white h-12 flex justify-between items-center px-16 rounded-md">
-                    <a id="btnBack" class="w-6 flex flex-col" href="#">
-                        <img class="w-5" src="../assets/img/arrow-left-solid.svg" alt="" srcset="">
-                    </a>
-                    <a class="w-6 flex flex-col" href="../pages/main.html">
-                        <svg class="" xmlns="http://www.w3.org/2000/svg" height="1em"
-                            viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <path
-                                d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
-                        </svg>
-                    </a>
-                    <a class="w-6 flex flex-col" href="../pages/about.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                            viewBox="0 0 192 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <path
-                                d="M48 80a48 48 0 1 1 96 0A48 48 0 1 1 48 80zM0 224c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32V448h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H64V256H32c-17.7 0-32-14.3-32-32z" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
+              </div>
+            </li>
+            <li>
+              <a href="#B" class="text-blue-500 hover:underline font-bold">Interaksi Manusia dan Komputer</a>
+              <div id="subjudul">
+                <ul class="mx-10">
+                  <li>
+                    <a href="#Bsub1" class="text-blue-500 hover:underline">Berbasis GUI (Graphical User Interface)</a>
+                  </li>
+                  <li>
+                    <a href="#Bsub2" class="text-blue-500 hover:underline">Antarmuka Berbasis Perintah (Command Line Interface/CLI)</a>
+                  </li>
+                  <li>
+                    <a href="#Bsub3" class="text-blue-500 hover:underline">Melalui Suara (Audio)</a>
+                  </li>
+                  <li>
+                    <a href="#Bsub4" class="text-blue-500 hover:underline">Melalui Gambar (Video)</a>
+                  </li>
+                  <li>
+                    <a href="#Bsub5" class="text-blue-500 hover:underline">Melalui Berbagai Piranti Masukan Lainnya</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#C" class="text-blue-500 hover:underline font-bold">Kolaborasi dalam Sistem Komputer</a>
+            </li>
+          </ol>
         </div>
+      </div>
 
-        <section class="flex flex-col mt-7 bg-blue-800 rounded p-4 gap-4 items-center">
-            <h2 class="text-white">Bagus, mulai kerjakan quiz untuk memperdalam pengetahuan kamu</h2>
-            <a href="quiz.html"
-                class="rounded-full bg-yellow-300 h-8 w-32 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-300 flex items-center justify-center font-semibold">Kerjakan
-                Quiz</a>
+      <!-- Materi 1 start -->
+      <article id="A" class="flex flex-col">
+        <h2 class="text-xl font-semibold mt-8">A. Komputer dan Komponen Penyusunnya</h2>
+        <p class="text-justify">
+          Komputer adalah sebuah perangkat elektronik yang dapat menerima, memproses, dan menyimpan data untuk menghasilkan informasi yang berguna. Komputer terdiri dari berbagai komponen yang bekerja bersama-sama untuk menjalankan
+          tugas-tugas yang diberikan kepadanya.
+        </p>
+        <figure class="flex flex-col m-4">
+          <img src="../assets/img/materi/4.2.PNG" alt="" class="w-10/12 max-w-md self-center" />
+          <figcaption class="self-center text-xs justify-center">Gambar 4.2 Diagram Blok Konseptual Komputer Sumber: Dokumen Kemendikbud,2021</figcaption>
+        </figure>
+        <p>
+          Gambaran umum sebuah komputer tampak pada Gambar 4.2, di mana “data” (teks, suara, klik, sentuhan, atau lainnya) dari peranti masukan akan diproses oleh Central Processing Unit (CPU) untuk menghasilkan output berupa tampilan
+          informasi, sinyal reaksi, dll. yang direpresentasikan melalui peranti keluaran.
+        </p>
+
+        <!-- sub 1 start -->
+        <section id="Asub1" class="m-3">
+          <h3 class="text-base font-bold">1. Sistem komputer</h3>
+          <p>Sistem komputer terdiri dari tiga komponen utama: perangkat keras (hardware), perangkat lunak (software), dan pengguna. Mari kita bahas lebih detail tentang setiap komponen ini :</p>
+          <ul class="list-disc list-inside m-3">
+            <li>
+              <strong>Perangkat Keras (Hardware)</strong>: Komponen perangkat keras meliputi semua komponen fisik yang membentuk sistem komputer. Ini termasuk unit pemroses sentral (CPU), memori (RAM), penyimpanan (hard disk, SSD), papan
+              induk (motherboard), kartu grafis, monitor, keyboard, mouse, dan perangkat keras lainnya. Perangkat keras bertanggung jawab untuk menjalankan tugas fisik dalam sistem komputer.
+            </li>
+            <li>
+              <strong>Perangkat Lunak (Software)</strong>: Komponen perangkat lunak mencakup program-program yang dijalankan oleh sistem komputer. Perangkat lunak meliputi sistem operasi (seperti Windows, macOS, Linux), aplikasi (seperti
+              Microsoft Word, Adobe Photoshop), perangkat lunak pengontrol perangkat keras (seperti driver), dan perangkat lunak kustom yang dikembangkan untuk keperluan khusus. Perangkat lunak memberikan instruksi kepada perangkat keras
+              dan memungkinkan pengguna untuk menjalankan berbagai tugas dan aplikasi.
+            </li>
+            <li>
+              <strong>Pengguna</strong>: Pengguna adalah individu atau entitas yang berinteraksi dengan sistem komputer. Pengguna menggunakan perangkat keras dan perangkat lunak untuk menjalankan aplikasi, mengakses data, dan melakukan
+              tugas komputasi lainnya. Pengguna berinteraksi dengan sistem komputer melalui antarmuka pengguna, seperti layar, keyboard, dan mouse, serta melalui perintah dan input yang diberikan kepada sistem.
+            </li>
+          </ul>
         </section>
 
+        <!-- sub 2 start -->
+        <section id="Asub2" class="m-3">
+          <h3 class="text-base font-bold">2. Jenis-Jenis Komputer</h3>
+          <p>Berdasarkan ukurannya, komputer dibagi menjadi beberapa jenis antara lain seperti ditunjukkan pada penjelasan berikut.</p>
+          <ul class="list-disc list-inside m-3">
+            <li>
+              <strong>Microcomputer (Komputer Mikro)</strong>: Komputer mikro adalah jenis komputer dengan ukuran paling kecil di antara jenis komputer lainnya, menggunakan microprocessor sebagai CPU utama, dan banyak digunakan dalam
+              kehidupan sehari-hari karena ukuran kecil dan harga yang terjangkau. Contohnya meliputi Ultrabook, permainan konsol, telepon pintar, dan tablet. Bahkan, ada komputer mikro dalam bentuk papan tunggal (single board circuit, SBC)
+              seperti Raspberry Pi dan Arduino.
+              <br />
+              <figure class="flex flex-col m-4">
+                <img src="../assets/img/materi/4.3.jpg" alt="" class="w-10/12 max-w-md self-center" />
+                <figcaption class="self-center text-xs justify-center">Gambar 4.3 Contoh Microcomputer</figcaption>
+              </figure>
+              <br />
+              Raspberry Pi adalah SBC seukuran kartu kredit yang dapat digunakan untuk menjalankan berbagai program, termasuk aplikasi perkantoran, permainan komputer, dan pemutar media hingga video beresolusi tinggi. Raspberry Pi
+              dikembangkan oleh Raspberry Pi Foundation, sebuah yayasan nirlaba yang dipimpin oleh pengembang dan ahli komputer dari Universitas Cambridge, Inggris.
+              <br />
+              Arduino, di sisi lain, adalah platform elektronik open-source yang memungkinkan pembuatan proyek interaktif. Papan Arduino dapat membaca input dan menghasilkan sinyal output untuk mengendalikan berbagai perangkat seperti
+              motor, LED, dan lainnya. Arduino mudah diprogram dan tersedia dalam berbagai varian, mulai dari yang sederhana hingga yang kompleks, untuk berbagai aplikasi seperti IoT, perangkat yang dapat dikenakan, pencetakan 3D, dan
+              sistem tertanam.
+            </li>
+            <li>
+              <strong>Komputer Personal (PC, Personal Computer)</strong>: Komputer personal (PC) lebih besar dari komputer mikro, memiliki kapasitas penyimpanan dan pemrosesan data yang lebih besar, serta dirancang untuk penggunaan
+              personal. PC dapat berbentuk desktop yang diletakkan di meja atau laptop yang dapat dibawa ke mana-mana.
+              <figure class="flex flex-col m-4">
+                <img src="../assets/img/materi/4.4.jpg" alt="" class="w-10/12 max-w-md self-center" />
+                <figcaption class="self-center text-xs justify-center">Gambar 4.4 Contoh Personal Computer</figcaption>
+              </figure>
+            </li>
+            <li>
+              <strong>Mini PC</strong>: Merupakan komputer “peralihan” dari komputer personal ke komputer mini yang dipakai di industri. Biasanya, dipakai untuk industri kecil atau personal untuk keperluan profesional atau industri kecil.
+              <figure class="flex flex-col m-4">
+                <img src="../assets/img/materi/4.5.jpg" alt="" class="w-10/12 max-w-md self-center" />
+                <figcaption class="self-center text-xs justify-center">Gambar 4.5 Contoh Mini PC, Coffee Lake-U-based Bean Canyon Intel NUC8i5BEK2</figcaption>
+              </figure>
+            </li>
+            <li>
+              <strong>Minicomputer</strong>: Berbeda dengan komputer personal, komputer mini berukuran lebih besar, dan mempunyai kapasitas memori maupun pemroses yang lebih besar. Komputer mini dipakai menunjang kebutuhan pengolahan
+              informasi perusahaan skala menengah. Saat ini, komputer mini kurang populer dan makin sedikit digunakan karena perusahaan lebih praktis untuk menyewa komputer di cloud yang memudahkan pemeliharaannya
+              <figure class="flex flex-col m-4">
+                <img src="../assets/img/materi/4.6.jpg" alt="" class="w-10/12 max-w-md self-center" />
+                <figcaption class="self-center text-xs justify-center">Gambar 4.6 Contoh Minicomputer PDP-8e Minicomputer System</figcaption>
+              </figure>
+            </li>
+            <li>
+              <strong>Komputer Mainframe</strong>: Komputer Mainframe berukuran lebih besar dibandingkan dengan komputer dan biasanya digunakan oleh perusahaan-perusahaan besar sebagai server (peladen)
+              <figure class="flex flex-col m-4">
+                <img src="../assets/img/materi/4.7.jpg" alt="" class="w-10/12 max-w-md self-center" />
+                <figcaption class="self-center text-xs justify-center">Gambar 4.7 Salah satu contoh Komputer Mainframe IBM z Systems z13.</figcaption>
+              </figure>
+            </li>
+            <li>
+              <strong>Supercomputer</strong>: Superkomputer adalah jenis komputer terbesar dengan kemampuan pengolahan data dan kinerja terkuat. Mereka mampu melakukan triliunan instruksi per detik yang diukur dalam FLOPS (Floating Point
+              Operation per Second). Superkomputer digunakan oleh perusahaan dan organisasi besar seperti NASA untuk aplikasi seperti peluncuran dan pengendalian pesawat dan roket.
+              <figure class="flex flex-col m-4">
+                <img src="../assets/img/materi/4.8.jpg" alt="" class="w-10/12 max-w-md self-center" />
+                <figcaption class="self-center text-xs justify-center">Gambar 4.8 Sierra/ATS-2 Super Computer</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!-- Materi 1 end -->
+
+      <!-- Materi 2 start -->
+      <article id="B" class="flex flex-col">
+        <h2 class="text-xl font-semibold mt-8">B. Interaksi Manusia dan Komputer</h2>
+        <p class="text-justify">
+          Sebuah sistem komputasi terdiri atas perangkat keras dan perangkat lunak yang saling berinteraksi. Interaksi antarmuka seringkali digunakan untuk menghubungkan perangkat satu dengan perangkat lainnya, mulai dari perangkat masukan
+          dan keluaran yang dikendalikan oleh sistem operasi, dan kemudian dapat ditambahkan berbagai aplikasi yang dapat dipakai oleh pengguna.
+        </p>
+
+        <p>Berbagai macam jenis interaksi dapat dilakukan oleh pengguna dengan sistem komputer, di antaranya seperti berikut.</p>
+
+        <!-- sub 1 start -->
+        <section id="Bsub1" class="m-3">
+          <h3 class="text-base font-bold">1. Berbasis GUI (Graphical User Interface)</h3>
+          <p>
+            Merupakan antarmuka yang menggunakan menu grais untuk memudahkan pengguna berinteraksi dengan komputer. GUI merupakan antarmuka pada sistem operasi komputer yang menggunakan menu grais. Pengguna berinteraksi melalui ikon, menu,
+            dialog dengan button dan text box, radio button (untuk satu pilihan), atau checkbox (untuk banyak Pilihan).
+          </p>
+          <figure class="flex m-4 space-x-4">
+            <img src="../assets/img/materi/b1a.jpg" alt="" class="w-1/4 max-w-md self-center" />
+            <img src="../assets/img/materi/b1b.jpg" alt="" class="w-1/4 max-w-md self-center" />
+            <img src="../assets/img/materi/b1c.jpg" alt="" class="w-1/4 max-w-md self-center" />
+            <img src="../assets/img/materi/b1d.jpg" alt="" class="w-1/4 max-w-md self-center" />
+          </figure>
+          <figcaption class="self-center text-xs justify-center">
+            Gambar 4.10 Antarmuka Berbasis Grais (a) Ikon pada ponsel, (b) Menu, (c) Dialog, textbox, dan button, (d) checkbox dan radio button Sumber: Dokumen Kemendikbud, 2021
+          </figcaption>
+        </section>
+
+        <!-- sub 2 start -->
+        <section id="Bsub2" class="m-3">
+          <h3 class="text-base font-bold">2. Antarmuka Berbasis Perintah (Command Line Interface/CLI)</h3>
+          <p>Sistem operasi berbasis CLI merupakan tipe antarmuka melalui text-terminal. Pengguna menjalankan perintah dan program di sistem operasi tersebut dengan cara mengetikkan baris-baris tertentu.</p>
+          <figure class="flex flex-col m-4">
+            <img src="../assets/img/materi/b2.jpg" alt="" class="w-10/12 max-w-md self-center" />
+            <figcaption class="self-center text-xs justify-center">Gambar 4.11 Contoh Antarmuka Berbasis Perintah (CLI) Sumber: Dokumen Kemendikbud, 2021</figcaption>
+          </figure>
+        </section>
+        <!-- sub 3 start -->
+        <section id="Bsub3" class="m-3">
+          <h3 class="text-base font-bold">3. Melalui Suara (Audio)</h3>
+          <p>
+            Antarmuka menggunakan suara memungkinkan pengguna mengucapkan sesuatu dan hasilnya akan direkam, dalam bentuk format audio. Antarmuka ini hanya dimungkinkan jika perangkat keras menyediakan perekam suara dan melalui aplikasi.
+          </p>
+        </section>
+        <!-- sub 4 start -->
+        <section id="Bsub4" class="m-3">
+          <h3 class="text-base font-bold">4. Melalui Gambar (Video)</h3>
+          <p>Antarmuka menggunakan gambar hanya dimungkinkan jika perangkat keras menyediakan kamera. Kamera akan merekam gambar dan melalui aplikasi akan menyimpan gambar dalam format video.</p>
+        </section>
+        <!-- sub 5 start -->
+        <section id="Bsub5" class="m-3">
+          <h3 class="text-base font-bold">5. Melalui Berbagai Piranti Masukan Lainnya</h3>
+          <p>Selain melalui perangkat lunak, pengguna dapat berinteraksi langsung ke komputer melalui piranti masukan, seperti yang dijelaskan sebelumnya (keyboard, joystick, mouse, touchpad, layar sentuh, keyboard virtual, dll).</p>
+        </section>
+      </article>
+      <!-- Materi 2 end -->
+
+      <!-- Materi 3 start -->
+      <article id="C" class="flex flex-col">
+        <h2 class="text-xl font-semibold mt-8">C. Kolaborasi dalam Sistem Komputer</h2>
+        <p class="text-justify mt-3">
+          Dalam sebuah sistem komputer, perangkat keras bekerja sama dengan perangkat lunak aplikasi dan sistem operasi. Sistem operasi berinteraksi dengan aplikasi untuk berkomunikasi dengan pengguna, membentuk sistem komputasi yang
+          bermanfaat. Ini mirip dengan bagaimana organ tubuh bekerja dalam tubuh manusia yang diatur oleh sistem syaraf, dengan indera memberikan sinyal untuk tindakan. Konsep ini juga mendasari penciptaan robot yang dapat berperilaku
+          sesuai dengan program yang ada dalam mereka.
+        </p>
+        <p class="text-justify mt-3">
+          Sistem otonom melibatkan interaksi komputasi tidak hanya dengan manusia tetapi juga dengan lingkungan sekitarnya, seperti perekam gambar, suara, dan sinyal lain yang mengirimkan data untuk diproses. Ini adalah dasar dari Internet
+          of Things (IoT), di mana perangkat di sekitar manusia mengumpulkan dan mengirim data ke komputer. Dalam komputer, komponen saling berhubungan, dan komputer berkolaborasi melalui jaringan, mulai dari jaringan lokal hingga internet
+          global. Ini adalah kerangka kerja kolaborasi yang terjadi dalam sistem komputasi.
+        </p>
+
+        <p class="text-justify mt-3">
+          Dalam sistem komputer, terjadi interaksi dan kolaborasi antara perangkat lunak. Contohnya terlihat dalam penggunaan berbagai perangkat lunak dalam kehidupan sehari-hari seperti di toko, warnet, kantor, dan rumah sakit. Misalnya,
+          saat menginstal perangkat lunak penggajian di komputer kantor, data masih perlu diolah dengan aplikasi pengolah lembar kerja. Ketika membeli laptop baru dan ingin membuat laporan, perlu menginstal sistem operasi terlebih dahulu
+          sebelum aplikasi pengolah kata. Ini menunjukkan bahwa perangkat lunak saling bergantung dan bekerja sama dalam sistem komputer.
+        </p>
+        <figure class="flex flex-col m-4">
+          <img src="../assets/img/materi/c.png" alt="" class="w-10/12 max-w-md self-center" />
+          <figcaption class="self-center text-xs justify-center">Gambar 4.12 Valkyrie, Humanoid Buatan NASA Sumber: Dokumen Kemendikbud, 2021</figcaption>
+        </figure>
+        <p class="text-justify mt-3">
+          Interaksi antar perangkat keras terjadi saat perangkat keras berkomunikasi satu sama lain. Contoh mencakup mencolokkan perangkat keras seperti flash disk atau mouse ke komputer. Saat menggunakan webcam untuk mengambil foto yang
+          kemudian dicetak dengan printer, interaksi antar perangkat keras terjadi ketika webcam mengirim gambar ke komputer, dan gambar tersebut dibuka oleh aplikasi lain sebelum dicetak dengan printer. Dalam kasus ini, interaksi antar
+          perangkat keras melibatkan perantara perangkat lunak yang dijalankan oleh sistem operasi pada komputer.
+        </p>
+        <p class="text-justify mt-3">
+          Interaksi antara antarmuka hardware dan software melibatkan langkah-langkah yang lebih kompleks karena perangkat lunak harus dirancang untuk dapat berkomunikasi dengan perangkat keras. Misalnya, sebelum menggunakan printer,
+          pengguna perlu menginstal driver, sebuah program yang memungkinkan komputer mengenali printer tersebut. Driver berperan sebagai perangkat komunikasi antara sistem operasi dan perangkat keras, menggunakan kode biner untuk
+          mengendalikan hardware dan mengambil data yang dikirim oleh hardware.
+          <br />
+          Selanjutnya, sistem operasi menyampaikan data ke printer untuk mencetak dokumen. Dalam proses ini, software yang diinstal, komputer atau laptop sebagai hardware, dan pengguna terlibat dalam sebuah hubungan yang memerlukan
+          antarmuka agar semuanya dapat berfungsi bersama.
+        </p>
+        <figure class="flex flex-col m-4">
+          <img src="../assets/img/materi/c2.webp" alt="" class="w-10/12 max-w-md self-center" />
+          <figcaption class="self-center text-xs justify-center">Gambar flasdisk dan mouse</figcaption>
+        </figure>
+        <p class="text-justify mt-3">
+          Contoh lainnya ialah ketika akan bermain musik. Kita dapat menggunakan alat tambahan menyerupai lashdisk (Makey Makey, misalnya pada modul https:// brainsintheclouds.eu/?page_id=159) yang dapat ditancapkan ke komputer, kemudian
+          dengan sebuah kabel, dapat disambungkan ke pisang, wortel, jeruk, alumunium, dan sebagainya. Untuk memainkannya, dapat membuka situs web atau aplikasi tertentu, lalu menyentuh barang yang disambungkan dengan kabel, dan musik pun
+          dapat dimainkan. Ketika akan bermain aplikasi permainan menggunakan ponsel, pasti membutuhkan software aplikasi permainan tersebut sehingga terjadi interaksi antarmuka antara ponsel sebagai hardware dan software aplikasi
+          permainan.
+        </p>
+      </article>
+      <!-- Materi 3 end -->
+
+      <!-- toolbar -->
+      <div class="toolbarContainer">
+        <div class="md:hidden flex items-center">
+          <div class="fixed bottom-0 left-0 w-full bg-white h-12 flex justify-between items-center px-16 rounded-md">
+            <a id="btnBack" class="w-6 flex flex-col" href="#">
+              <img class="w-5" src="../assets/img/arrow-left-solid.svg" alt="" srcset="" />
+            </a>
+            <a class="w-6 flex flex-col" href="../pages/main.html">
+              <svg class="" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                />
+              </svg>
+            </a>
+            <a class="w-6 flex flex-col" href="../pages/about.html">
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 192 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M48 80a48 48 0 1 1 96 0A48 48 0 1 1 48 80zM0 224c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32V448h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H64V256H32c-17.7 0-32-14.3-32-32z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <section class="flex flex-col mt-7 bg-blue-800 rounded p-4 gap-4 items-center">
+        <h2 class="text-white">Bagus, mulai kerjakan quiz untuk memperdalam pengetahuan kamu</h2>
+        <a href="quiz.html" class="rounded-full bg-yellow-300 h-8 w-32 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-300 flex items-center justify-center font-semibold">Kerjakan Quiz</a>
+      </section>
     </div>
     <script>
-        const toggleButton = document.getElementById('toggleButton');
-        const daftarIsi = document.getElementById('daftarIsi');
+      const toggleButton = document.getElementById("toggleButton");
+      const daftarIsi = document.getElementById("daftarIsi");
 
-        toggleButton.addEventListener('click', function () {
-            daftarIsi.classList.toggle('hidden');
-        });
+      toggleButton.addEventListener("click", function () {
+        daftarIsi.classList.toggle("hidden");
+      });
     </script>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

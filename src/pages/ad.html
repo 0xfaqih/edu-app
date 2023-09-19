@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth scroll-pt-20">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bab 4</title>
+    <link rel="stylesheet" href="../../dist/output.css" />
+  </head>
+  <style>
+    .hidden {
+      display: none;
+    }
+
+    ol.list-alpha li {
+      list-style-type: upper-alpha;
+    }
+
+    #subjudul li {
+      list-style-type: decimal;
+    }
+  </style>
+
+  <body class="bg-gray-100">
+    <header>
+      <div id="navbarContainer">
+        <nav class="fixed top-0 left-0 right-0 backdrop-blur-2xl bg-white/95">
+          <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+              <div class="flex space-x-4">
+                <!-- Logo -->
+                <div>
+                  <a href="#" class="flex items-center py-5 px-2 text-primary hover:text-black">
+                    <span class="font-bold">MPdroid</span>
+                  </a>
+                </div>
+                <!-- Links -->
+                <div class="hidden md:flex items-center space-x-1">
+                  <a href="#" class="py-5 px-3 text-black hover:text-gray-500">Home</a>
+                  <a href="#" class="py-5 px-3 text-black hover:text-gray-500">E-book</a>
+                  <a href="#" class="py-5 px-3 text-black hover:text-gray-500">About</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="container mx-auto p-5 py-20">
+      <h1 class="text-2xl font-bold mb-4">ANALISIS DATA</h1>
+      <button id="toggleButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex">
+        <img class="w-4" src="../assets/img/expand-button.png" alt="" srcset="" />
+      </button>
+
+      <!-- daftar isi -->
+      <div id="daftarIsi" class="mt-4 hidden">
+        <div class="bg-white rounded-lg shadow-lg p-4">
+          <h2 class="text-xl font-semibold mb-2">Daftar Isi</h2>
+          <ol class="space-y-2 list-alpha list-inside">
+            <li>
+              <a href="#A" class="text-blue-500 hover:underline font-bold">Pengertian</a>
+            </li>
+            <li>
+              <a href="#B" class="text-blue-500 hover:underline font-bold">Jenis Analisis Data</a>
+              <div id="subjudul">
+                <ul class="mx-10">
+                  <li>
+                    <a href="#Bsub1" class="text-blue-500 hover:underline">A. Teknik Analisis Data Kualitatif</a>
+                  </li>
+                  <li>
+                    <a href="#Bsub2" class="text-blue-500 hover:underline">B. Teknik Analisis Data Kuantitatif</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#C" class="text-blue-500 hover:underline font-bold">Model Cara Analisis Data</a>
+              <div id="subjudul">
+                <ul class="mx-10">
+                  <li>
+                    <a href="#Csub1" class="text-blue-500 hover:underline">A. Model Induktif</a>
+                  </li>
+                  <li>
+                    <a href="#Csub2" class="text-blue-500 hover:underline">B. Model Deduktif</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#D" class="text-blue-500 hover:underline font-bold">Prosedur Analisis Data</a>
+              <div id="subjudul">
+                <ul class="mx-10">
+                  <li>
+                    <a href="#Dsub1" class="text-blue-500 hover:underline">A. Pengolahan Data</a>
+                  </li>
+                  <li>
+                    <a href="#Dsub2" class="text-blue-500 hover:underline">B. Penganalisaan Data</a>
+                  </li>
+                  <li>
+                    <a href="#Dsub3" class="text-blue-500 hover:underline">C. Penafsiran Hasil Analisis</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Materi start start -->
+      <article id="A" class="flex flex-col">
+        <h2 class="text-xl font-semibold mt-8">Pengertian</h2>
+        <p class="text-justify">
+          Analisis data adalah proses pengolahan data untuk tujuan menemukan informasi yang berguna yang dapat dijadikan sebagai dasar pengambilan keputusan untuk memecahkan suatu masalah. Proses analisis ini meliputi kegiatan pengelompokan
+          data berdasarkan karakteristiknya, pembersihan data, transformasi data, pembuatan model data hingga mencari informasi penting dari data tersebut.
+        </p>
+        <figure class="flex flex-col m-4">
+          <img src="../assets/img/materi/ad1.png" alt="" class="w-10/12 max-w-md self-center" />
+        </figure>
+      </article>
+      <!-- Materi end end -->
+      <!-- Materi 1 start -->
+      <article id="B" class="flex flex-col">
+        <h2 class="text-xl font-semibold mt-8">Jenis Analisis Data</h2>
+        <p class="text-justify">Secara umum, teknik analisis data terbagi menjadi dua kategori, yaitu teknik analisis data untuk penelitian kualitatif dan kuantitatif. Berikut penjelasannya.</p>
+
+        <!-- sub 1 start -->
+        <section id="Bsub1" class="m-3">
+          <h3 class="text-base font-bold">A. Teknik Analisis Data Kualitatif</h3>
+          <p>Analisis data kualitatif adalah analisis data yang diperoleh dari proses pengumpulan data, dimulai dengan kajian pustaka, partisipasi, dan wawancara. Teknik analisis kualitatif data penelitian dijelaskan di bawah ini.</p>
+          <ul class="list-disc list-inside m-3">
+            <li><strong>Analisis konten</strong>: Umumnya, data dikumpulkan atau dihasilkan oleh peneliti yang merekam atau menyusun transkrip materi tekstual seperti gambar atau suara.</li>
+            <li><strong>Analasis Wacana</strong>: Analisis wacana biasanya mengkaji tuturan, bahasa, tulisan, percakapan, dan lain-lain.</li>
+            <li><strong>Analisis Naratif</strong>: Tujuan analisis naratif adalah untuk menganalisis kumpulan deskripsi peristiwa dan fenomena, seperti biografi.</li>
+          </ul>
+        </section>
+
+        <!-- sub 2 start -->
+        <section id="Bsub2" class="m-3">
+          <h3 class="text-base font-bold">B. Teknik Analisis Data Kuantitatif</h3>
+          <p>Teknik ini merupakan teknik pengelolaan data yang bersifat numerik dan statistik. Berikut adalah teknik analisis data untuk penelitian kuantitatif.</p>
+          <ul class="list-disc list-inside m-3">
+            <li><strong>Statistik deskriptif</strong>: Statistik deskriptif adalah analisis data yang menggunakan teknik-teknik untuk mendeskripsikan atau menggambarkan data seperti itu, misalnya hitung jumlah atau tanggal pendudukan.</li>
+            <li>
+              <strong>Statistik inferensial</strong>: Teknik statistik inferensial dilakukan dengan membuat inferensi berdasarkan data yang berasal dari variabel penelitian untuk digeneralisasikan. Tujuan dari teknik ini adalah untuk
+              menentukan apakah data mewakili populasi sekelompok orang.
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!-- Materi 1 end -->
+
+      <!-- Materi 2 start -->
+      <article id="C" class="flex flex-col">
+        <h2 class="text-xl font-semibold mt-8">Model Cara Analisis Data</h2>
+
+        <!-- sub 1 start -->
+        <section id="Csub1" class="m-3">
+          <h3 class="text-base font-bold">A. Model Induktif</h3>
+          <p>Model induktif adalah metode analisis data yang diolah dari fakta (data) menjadi teori. Hal ini dilakukan untuk menghindari manipulasi data penelitian sehingga berdasarkan pengetahuan yang kemudian disesuaikan dengan teori.</p>
+        </section>
+
+        <!--Csub 2 start -->
+        <section id="Csub2" class="m-3">
+          <h3 class="text-base font-bold">B. Model Deduktif</h3>
+          <p>Analisis data deduktif adalah analisis data yang merupakan kebalikan dari induktif, yaitu prosesnya didapatkan dari teori ke fakta (data penelitian).</p>
+        </section>
+      </article>
+      <!-- Materi 2 end -->
+
+      <!-- Materi 3 start -->
+      <article id="D" class="flex flex-col">
+        <h2 class="text-xl font-semibold mt-8">Prosedur Analisis Data</h2>
+
+        <!-- sub 1 start -->
+        <section id="Dsub1" class="m-3">
+          <h3 class="text-base font-bold">A. Pengolahan Data</h3>
+          <p>Pengolahan data terjadi ketika semua data dikumpulkan dan dipilih sesuai dengan fokus pertanyaan penelitian. Pemrosesan pengolahan data mencakup hal-hal berikut:</p>
+          <ul class="list-disc list-inside m-3">
+            <li><strong>Pengkodean</strong>: Coding atau pengkodean merupakan langkah kedua setelah pemeriksaan data, yang melabeli data dengan simbol atau tanda tertentu untuk bahan analitik.</li>
+            <li><strong>Tabulasi</strong>: Tabulasi adalah kompilasi atau penyajian informasi sesuai dengan masalah penelitian.</li>
+          </ul>
+        </section>
+
+        <!-- sub 2 start -->
+        <section id="Dsub2" class="m-3">
+          <h3 class="text-base font-bold">B. Penganalisaan Data</h3>
+          <p>
+            Langkah kedua adalah analisis data, dimana dilakukan penyederhanaan data, klasifikasi dan interpretasi yang mudah. Data yang dikumpulkan dalam penelitian kuantitatif kemudian disusun dengan angka statistik dan data kualitatif
+            dengan simbol atau kata-kata.
+          </p>
+        </section>
+        <!--Dsub 3 -->
+        <section id="Dsub3" class="m-3">
+          <h3 class="text-base font-bold">C. Penafsiran Hasil Analisis</h3>
+          <p>
+            Langkah terakhir dari teknik analisis data adalah penafsiran hasil analisis. Hal ini dilakukan untuk menginterpretasikan informasi yang dikumpulkan, diolah dan disajikan sebagai sebuah kesimpulan. Untuk menarik kesimpulan,
+            seseorang harus membandingkan hipotesis dengan penelitian yang ditemukan, masuk akal atau tidak, dan lain sebagainya.
+          </p>
+        </section>
+      </article>
+      <!-- Materi 3 end -->
+
+      <!-- toolbar -->
+      <div class="toolbarContainer">
+        <div class="md:hidden flex items-center">
+          <div class="fixed bottom-0 left-0 w-full bg-white h-12 flex justify-between items-center px-16 rounded-md">
+            <a id="btnBack" class="w-6 flex flex-col" href="#">
+              <img class="w-5" src="../assets/img/arrow-left-solid.svg" alt="" srcset="" />
+            </a>
+            <a class="w-6 flex flex-col" href="../pages/main.html">
+              <svg class="" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                />
+              </svg>
+            </a>
+            <a class="w-6 flex flex-col" href="../pages/about.html">
+              <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 192 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M48 80a48 48 0 1 1 96 0A48 48 0 1 1 48 80zM0 224c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32V448h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H64V256H32c-17.7 0-32-14.3-32-32z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const toggleButton = document.getElementById("toggleButton");
+      const daftarIsi = document.getElementById("daftarIsi");
+
+      toggleButton.addEventListener("click", function () {
+        daftarIsi.classList.toggle("hidden");
+      });
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
