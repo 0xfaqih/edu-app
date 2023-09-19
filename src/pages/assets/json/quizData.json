@@ -11,11 +11,6 @@
       "correctAnswer": 2
     },
     {
-      "question": "Apa yang dimaksud dengan 'RAM' dalam konteks komputer?",
-      "answers": ["Rekaman Aktivitas Mekanis.", "Ruang Akses Media.", "Random Access Memory.", "Read-Only Memory."],
-      "correctAnswer": 2
-    },
-    {
       "question": "Interaksi antara perangkat keras, perangkat lunak, dan pengguna komputer terjadi melalui apa?",
       "answers": ["RAM.", "Algoritma.", "Sistem Operasi.", "CPU."],
       "correctAnswer": 2
@@ -161,51 +156,33 @@
       "correctAnswer": 3
     },
     {
-      "question": "Apa ya?",
-      "image" : "assets/img/algoritma.svg",
-      "answers": ["ada", "tidak ada", "mana ada", "apa"],
-      "correctAnswer" : 0
+      "question": "Apa peran gambar berikut?",
+      "image" : "assets/img/quiz/motherboard.jpg",
+      "answers": ["Menyimpan data", "Menghasilkan suara", "Mengontrol perangkat masukan", "Menghubungkan semua komponen komputer"],
+      "correctAnswer" : 3
     },
     {
-      "question": "Apa ya?",
-      "image" : "assets/img/algoritma.svg",
-      "answers": ["ada", "tidak ada", "mana ada", "apa"],
-      "correctAnswer" : 0
+      "question": "Ini adalah salah satu komponen komputer, dari gambar tersebut menunjukkan?",
+      "image" : "assets/img/quiz/ram.jpg",
+      "answers": ["HDD", "SSD", "RAM", "DVD Drive"],
+      "correctAnswer" : 2
     },
     {
-      "question": "Apa ya?",
-      "image" : "assets/img/algoritma.svg",
-      "answers": ["ada", "tidak ada", "mana ada", "apa"],
-      "correctAnswer" : 0
+      "question": "Dari gambar dibawah ini menukkan interaksi pengguna melalui?",
+      "image" : "assets/img/quiz/cli.jpg",
+      "answers": ["GUI (Graphical User Interface)", "CLI (Command Line Interface)", "Teks", "Gambar"],
+      "correctAnswer" : 1
     },
     {
-      "question": "Apa ya?",
-      "image" : "assets/img/algoritma.svg",
-      "answers": ["ada", "tidak ada", "mana ada", "apa"],
-      "correctAnswer" : 0
+      "question": "Dari gambar di bawah ini, memiliki fungsi utama dalam sistem komputer. Apakah itu?",
+      "image" : "assets/img/quiz/bios.gif",
+      "answers": ["Menyimpan data jangka panjang", "Memeriksa dan menginisialisasi perangkat keras saat komputer dinyalakan", "Menghubungkan komputer ke jaringan atau internet", "Menghasilkan tampilan visual pada layar"],
+      "correctAnswer" : 1
     },
     {
-      "question": "Apa ya?",
-      "image" : "assets/img/algoritma.svg",
-      "answers": ["ada", "tidak ada", "mana ada", "apa"],
-      "correctAnswer" : 0
-    },
-    {
-      "question": "Apa ya?",
-      "image" : "assets/img/algoritma.svg",
-      "answers": ["ada", "tidak ada", "mana ada", "apa"],
-      "correctAnswer" : 0
-    },
-    {
-      "question": "Apa ya?",
-      "image" : "assets/img/algoritma.svg",
-      "answers": ["ada", "tidak ada", "mana ada", "apa"],
-      "correctAnswer" : 0
-    },
-    {
-      "question": "Apa ya?",
-      "image" : "assets/img/algoritma.svg",
-      "answers": ["ada", "tidak ada", "mana ada", "apa"],
+      "question": "Gambar ini adalah komponen yang menghubungkan komputer ke jaringan atau internet. Apa nama komponen ini?",
+      "image" : "assets/img/quiz/nic.jpg",
+      "answers": ["NIC (Network Interface Card)", "Router", "GPU (Graphics Processing Unit)", "PSU (Power Supply Unit)"],
       "correctAnswer" : 0
     }
   ]
